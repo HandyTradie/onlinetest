@@ -1,0 +1,17 @@
+mjx-table {
+  white-space: pre-line !important;
+}
+
+mjx-math {
+  white-space: pre-line !important;
+  line-height: 50% !important;
+}
+
+img {
+  margin: 0 auto;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 1rem;
+}

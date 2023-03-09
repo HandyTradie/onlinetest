@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "quizmine-a809e"
+  },
+  "targets": {
+    "quizmine-a809e": {
+      "hosting": {
+        "online-test": [
+          "mockgen-online-test-prod"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "bootstrap": "yarn install; lerna bootstrap;",
+    "dev": "lerna run dev --parallel",
+    "deploy": "lerna run deploy --parallel"
+  },
+  "dependencies": {
+    "rehype-mathjax": "^4.0.2",
+    "remark-math": "^5.1.1"
+  }
+}
